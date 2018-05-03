@@ -29,7 +29,7 @@
 						        <ul class="nav navbar-nav navbar-left">
 						            <li class="dropdown">
 						                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						                	就业管理
+						                	招聘管理
 						                    <b class="caret"></b>
 						                </a>
 						                <ul class="dropdown-menu">
@@ -37,8 +37,7 @@
 						                    <li><a href="#"><span class=""></span>面试</a></li>
 						                </ul>
 						            </li>
-						            <li><a href="#"><span class=""></span>简历管理</a></li>
-						            <li><a href="#"><span class=""></span>职位投递</a></li>
+						            <li><a href="#"><span class=""></span>职位管理</a></li>
 						            <li><a href="#"><span class=""></span>修改信息</a></li>
 						        </ul>
 						    </div>

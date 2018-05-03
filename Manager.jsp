@@ -29,22 +29,44 @@
 						        <ul class="nav navbar-nav navbar-left">
 						            <li class="dropdown">
 						                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						                	就业管理
+						                	学生管理
 						                    <b class="caret"></b>
 						                </a>
 						                <ul class="dropdown-menu">
-						                    <li><a href="#"><span class=""></span>初试</a></li>
-						                    <li><a href="#"><span class=""></span>面试</a></li>
+						                    <li><a href="#"><span class=""></span>学生信息导入</a></li>
+						                    <li><a href="#"><span class=""></span>课程成绩导入</a></li>
+						                    <li><a href="#"><span class=""></span>签约学生审核</a></li>
 						                </ul>
 						            </li>
-						            <li><a href="#"><span class=""></span>简历管理</a></li>
-						            <li><a href="#"><span class=""></span>职位投递</a></li>
+						            <li class="dropdown">
+						                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						                	签约管理
+						                    <b class="caret"></b>
+						                </a>
+						                <ul class="dropdown-menu">
+						                    <li><a href="#"><span class=""></span>未签约</a></li>
+						                    <li><a href="#"><span class=""></span>已签约</a></li>
+						                </ul>
+						            </li>
+						            <li class="dropdown">
+						                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						                	企业管理
+						                    <b class="caret"></b>
+						                </a>
+						                <ul class="dropdown-menu">
+						                    <li><a href="#"><span class=""></span>待审核企业</a></li>
+						                    <li><a href="#"><span class=""></span>已审核企业</a></li>
+						                </ul>
+						            </li>
 						            <li><a href="#"><span class=""></span>修改信息</a></li>
 						        </ul>
 						    </div>
 					    </div>
 				 	</nav>				 
 				 </div>
+    		</div>
+    		<div class="row">
+    			
     		</div>
     	</div>
  	</body>
