@@ -70,8 +70,18 @@
 	<script src="js/bootstrap-dropdown.js"></script>
 	<script src="js/bootstrap-collapse.js"></script>
 	<script type="text/javascript">
+		function reset_form(ele){
+			$(ele)[0].reset();
+		}
+		function addBtn(){
+			var BtnDiv = $("<div class='row'><div>").append($("<div class='col-md-4 col-md-offset-8'></div>")
+			.append($("<button class='btn btn-primary' id='add_modal_btn'>新增</button>"))
+			.append($("<button class='btn btn-danger' id='del_all_btn'>删除</button>")))
+			.appendTo("#maincontent")
+		}
+		
 		function getResumeJobS(){
-			
+			addBtn();
 		}
 		
 		function getResumeJobF(){
