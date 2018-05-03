@@ -1,0 +1,33 @@
+.menu{
+	width: :100%;
+	height: 42px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.menu ul{
+	width: 335px;
+	margin: 0 auto;
+}
+h1,h3,h6,h2{
+	color: #FFFFFF;
+}
+.stutitle{
+	background-color: #000000;
+}
+.stutitle h1,.stutitle h6{
+	display: inline-block;
+}
+.container{
+	height:500px;
+}
+.biaoti{
+	height: 100px;
+}
+.mylogin{
+	height: 400px;
+}
+.mylogin .panel-body{
+	height: 300px;
+}
+.stuhref a{
+	color:#FFFFFF;
+}
