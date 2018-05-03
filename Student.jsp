@@ -18,34 +18,49 @@
 				<div class="col-md-2">
 					<h5 class="text-right stuhref"><a href="index.jsp"><span class="glyphicon glyphicon-log-out"></span>退出</a></h5>
 				</div>
-			</div>    		
+			</div>
     		<div class="row">
 				 <div>
 					<nav class="navbar navbar-inverse" role="navigation">
 				 		<div class="container-fluid">
 						    <div class="navbar-header">
-						        <a class="navbar-brand" href="#">菜单</a>
+						        <a class="navbar-brand" href="###"><span class="glyphicon glyphicon-align-justify"></span>菜单</a>
 						    </div>
 						    <div>
 						        <ul class="nav navbar-nav navbar-left">
 						            <li class="dropdown">
-						                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						                	就业管理
+						                <a href="###" class="dropdown-toggle" data-toggle="dropdown">
+						                	<span class="glyphicon glyphicon-list"></span>就业管理
 						                    <b class="caret"></b>
 						                </a>
 						                <ul class="dropdown-menu">
-						                    <li><a href="#"><span class=""></span>初试</a></li>
-						                    <li><a href="#"><span class=""></span>面试</a></li>
+						                    <li><a onclick="getResumeJobF()" class="default-btn" href="javascript:void(0)">初试</a></li>
+						                    <li><a onclick="getResumeJobS()" class="default-btn" href="javascript:void(0)">面试</a></li>
 						                </ul>
 						            </li>
-						            <li><a href="#"><span class=""></span>简历管理</a></li>
-						            <li><a href="#"><span class=""></span>职位投递</a></li>
-						            <li><a href="#"><span class=""></span>修改信息</a></li>
+						            <li><a onclick="getResume()" class="default-btn" href="javascript:void(0)"><span class="glyphicon glyphicon-list-alt"></span>简历管理</a></li>
+						            <li><a onclick="getJob()" class="default-btn" href="javascript:void(0)"><span class="glyphicon glyphicon-leaf"></span>职位投递</a></li>
+						            <li><a onclick="updateStu()" class="default-btn" href="javascript:void(0)"><span class="glyphicon glyphicon-user"></span>修改信息</a></li>
 						        </ul>
 						    </div>
 					    </div>
 				 	</nav>				 
 				 </div>
+    		</div>
+    		<div class="row">
+    			<div class="panel panel-default">
+				    <div class="panel-heading">
+				        <h6 class="panel-title">
+				        	学生
+				        </h6>
+				    </div>
+				    <div class="panel-body" id="maincontent">
+						
+				    </div>
+				    <div class="panel-footer">
+				    	
+				    </div>
+				</div>
     		</div>
     	</div>
  	</body>
@@ -55,6 +70,24 @@
 	<script src="js/bootstrap-dropdown.js"></script>
 	<script src="js/bootstrap-collapse.js"></script>
 	<script type="text/javascript">
+		function getResumeJobS(){
+			
+		}
+		
+		function getResumeJobF(){
+			
+		}
+		function getResume(){
+			
+		}
+		
+		function getJob(){
+		
+		}
+		
+		function updateStu(){
+			
+		}
 		
 	</script>
 </html>
