@@ -55,10 +55,18 @@
 				        </h6>
 				    </div>
 				    <div class="panel-body" id="maincontent">
-						
-				    </div>
-				    <div class="panel-footer">
-				    	
+				    	<div class="row" id="textdiv">
+				    		
+				    	</div>
+						<div class="row" id="btndiv">
+							
+						</div>
+						<div class="row" id="fromdiv">
+							
+						</div>
+						<div class="row" id="pagediv">
+							
+						</div>
 				    </div>
 				</div>
     		</div>
@@ -70,32 +78,56 @@
 	<script src="js/bootstrap-dropdown.js"></script>
 	<script src="js/bootstrap-collapse.js"></script>
 	<script type="text/javascript">
-		function reset_form(ele){
-			$(ele)[0].reset();
+		function ele_remove(ele){
+			$(ele).remove();
+		}
+		function ele_empty(ele){
+			$(ele).empty();
 		}
 		function addBtn(){
+			ele_empty("#btndiv");
 			var BtnDiv = $("<div class='row'><div>").append($("<div class='col-md-4 col-md-offset-8'></div>")
-			.append($("<button class='btn btn-primary' id='add_modal_btn'>新增</button>"))
-			.append($("<button class='btn btn-danger' id='del_all_btn'>删除</button>")))
-			.appendTo("#maincontent")
+			.append($("<button class='btn btn-primary' id='add_modal_btn'><span class='glyphicon glyphicon-pencil'></span>新增</button>&nbsp;&nbsp;"))
+			.append($("<button class='btn btn-danger' id='del_all_btn'><span class='glyphicon glyphicon-trash'></span>删除</button>")))
+			.appendTo("#btndiv")
+		}
+		
+		function addResumeJobForm(){
+			
+			
 		}
 		
 		function getResumeJobS(){
 			addBtn();
+			$.ajax({
+				type:"post",
+				url:"http://localhost:8080/zstu_manage/getByStudentId",
+				async:true,
+				success:function(result){
+					alert(result.extend.list.studentid);
+				},
+				error:function(){
+					alert("ajax失败");
+				}
+			});
 		}
 		
 		function getResumeJobF(){
+			addBtn();
 			
 		}
 		function getResume(){
+			addBtn();
 			
 		}
 		
 		function getJob(){
-		
+			addBtn();
+			
 		}
 		
 		function updateStu(){
+			addBtn();
 			
 		}
 		

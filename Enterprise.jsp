@@ -54,10 +54,18 @@
 				        </h6>
 				    </div>
 				    <div class="panel-body" id="maincontent">
-						
-				    </div>
-				    <div class="panel-footer">
-				    	
+						<div class="row" id="textdiv">
+				    		
+				    	</div>
+						<div class="row" id="btndiv">
+							
+						</div>
+						<div class="row" id="fromdiv">
+							
+						</div>
+						<div class="row" id="pagediv">
+							
+						</div>
 				    </div>
 				</div>
     		</div>
